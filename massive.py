@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# SQLi massive finder
+# SQLi massive seeker
 # Search for SQLi Vulnerabilities
 # belane 2016
 
@@ -306,7 +306,7 @@ def getURLfromForms(formList):
 # MAIN
 if __name__ == "__main__":
     ## HELP & ARGS
-    parser = argparse.ArgumentParser(description='SQLi massive finder. Search for SQLi in every url and form')
+    parser = argparse.ArgumentParser(description='SQLi massive seeker. Search for SQLi in every url and form')
     parser.add_argument('-u', '--url', type=str, required=True, help='Target URL')
     parser.add_argument('--cookie', type=str, metavar="", help='Provide a specific cookie')
     parser.add_argument('--agent', type=str, metavar="", help='Provide a specific User Agent')
